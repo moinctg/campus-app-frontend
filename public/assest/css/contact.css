@@ -1,0 +1,297 @@
+
+
+/*Roboto 300*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*Open Sans 700*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+/*Lato 400*/
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+/*Poppins 800*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+/*Anek Bangla 400*/
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --menu-hover-color: #ff001e;
+    --bg-color: #222A33;
+    --bg-color-01:#0b1e33;
+    --bg-color-1: #00464c40;
+    --top-border: #093f4471;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding: auto;
+    overflow: hidden;
+}
+
+body{
+    background: linear-gradient(to left, #002e1c, #002f33);
+}
+
+.hr-top-border{
+    border: 1px solid var(--top-border);
+}
+
+
+/*Contact Section*/
+
+.contact-section {
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.contact-form {
+    border: 1px solid #0691ae42;
+    background: var(--bg-color-1);
+    padding: 5%;
+    border-radius: 10px;
+}
+
+.input-section { 
+    margin-left: 5%;
+    margin-bottom: 2%;
+}
+
+.contact-section h1 {
+    margin-left: 5%;
+    margin-bottom: 5%;
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.input-section input[type='text']{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #00636c;
+    outline: none;
+    color: #fff;
+    padding: 10px;
+    width: 25%;
+    height: 30px;
+    margin-bottom: 8%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.input-section input::placeholder{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+#Choose-a-Service {
+    width: 27%;
+    border: none;
+    background: none;
+    padding: 10px;
+    outline: none;
+    color: #fff;
+    border-bottom: 1px solid #00636c;
+    height: 55px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+#Choose-a-Service option{
+    background-color: #003832;
+}
+
+.input-section textarea{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #00636c;
+    outline: none;
+    color: #fff;
+    width: 60%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.input-section textarea::placeholder{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.submit-btn {
+    margin-top: 70px;
+    margin-left: 18%;
+}
+
+.submit-btn a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    background: #003f3e;
+    padding: 15px;
+    font-weight: 500;
+    padding-left: 65px;
+    padding-right: 65px;
+    border-radius: 100px;
+}
+
+.contact-right-section {
+    float: right;
+    margin-top: -50%;
+    margin-right: 5%;
+}
+
+.contact-right-section .card-1{
+    background: #003932;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    height: 16vh;
+    margin-bottom: 10%;
+}
+
+.contact-right-section .card-2{
+    background: #003932;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    height: 12vh;
+    margin-bottom: 10%;
+}
+
+.contact-right-section .card-3{
+    background: #003932;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+    height: 12vh;
+    margin-bottom: 10%;
+}
+
+.contact-right-section .card-1 p{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    line-height: 22px;
+    font-size: 14px;
+    font-style: italic;
+    width: 220px;
+    margin-top: -30px;
+    margin-left: 55px;
+}
+
+.contact-right-section .card-2 p{
+    font-family: 'Roboto', sans-serif;
+    text-transform: lowercase;
+    line-height: 22px;
+    font-size: 16px;
+    font-style: italic;
+    width: 220px;
+    margin-top: -25px;
+    margin-left: 60px;
+}
+
+.contact-right-section .card-3 p{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    line-height: 22px;
+    font-size: 17px;
+    font-style: italic;
+    width: 220px;
+    margin-top: -25px;
+    margin-left: 60px;
+}
+
+.contact-right-section h2 {
+    margin-left: 25px;
+    margin-top: 15px;
+}
+
+i {
+    font-size: 31px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+/*footer*/
+
+.footer-top-border{
+    border: 1px solid var(--bg-color-1);
+}
+
+.footer-logo img {
+    width: 12%;
+    margin-top: 10%;
+}
+
+.left-content {
+    float: left;
+    margin-top: 40px;
+    line-height: 40px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
+}
+
+.center-content {
+    margin-left: 60%;
+    margin-top: 3%;
+    color: #fff;
+    list-style: none;
+    line-height: 35px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.right-content {
+    float: right;
+    margin-top: -13%;
+    color: #fff;
+    list-style: none;
+    display: flex;
+}
+
+.right-content h1 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.right-content .icon-area{
+    margin-top: 20%;
+    margin-left: -40%;
+    display: flex;
+}
+
+
+.right-content .icon-area a i {
+    margin-right: 20px;
+    font-size: 25px;
+    color: #fff;
+}
+
+/*bottom footer*/
+
+.bottom-footer{
+    background: var(--bg-color-1);
+}
+
+.bottom-footer .copyright{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.bottom-footer .copyright a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}

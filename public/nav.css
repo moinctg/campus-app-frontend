@@ -1,0 +1,69 @@
+/*Roboto 300*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*Open Sans 700*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+/*Lato 400*/
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+/*Poppins 800*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --menu-hover-color: #ff001e;
+    --bg-color: #222A33;
+    --bg-color-01:#0b1e33;
+    --bg-color-1: #00464c40;
+}
+
+.navbar{
+    background: linear-gradient(to left, #002e1c, #002f33);
+    padding-bottom: 2%;
+}
+
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding: auto;
+    overflow: hidden;
+}
+
+/*navbar*/
+
+.navbar .logo img{
+    width: 10%;
+    margin-top: 4%;
+    float: left;
+}
+
+.navbar .main-nav ul{
+    float: right;
+    margin-top: 6%;
+}
+
+.navbar .main-nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+
+.navbar .main-nav ul li a{
+    color: #fff;
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.navbar .main-nav ul li a:hover{
+    color: var(--menu-hover-color);
+    font-weight: bold;
+}

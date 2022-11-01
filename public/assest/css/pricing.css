@@ -1,0 +1,189 @@
+/*Roboto 300*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/*Open Sans 700*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+/*Lato 400*/
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+/*Poppins 800*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+/*Anek Bangla 400*/
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla&display=swap');
+/*Hind Siliguri 300*/
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Hind+Siliguri:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --menu-hover-color: #ff001e;
+    --bg-color: #222A33;
+    --bg-color-01:#0b1e33;
+    --bg-color-1: #00464c40;
+    --top-border: #093f4471;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding: auto;
+    overflow: hidden;
+}
+
+body{
+    background: linear-gradient(to left, #002e1c, #002f33);
+}
+
+.hr-top-border{
+    border: 1px solid var(--top-border);
+}
+
+.pricing-card-section {
+    margin-top: 15%;
+    margin-bottom: 15%;
+    display: flex;
+}
+
+.pricing-card {
+    background: var(--bg-color-1);
+    width: 350px;
+    height: 65vh;
+    border-radius: 10px;
+    color: #fff;
+    padding: 25px;
+    margin-left: 30px;
+}
+
+.card-quality{
+    margin-left: 40px;
+    padding-top: 50px;
+    font-family: 'Open Sans';
+    font-size: 25px;
+    color: var(--menu-hover-color);
+}
+
+.price-time {
+    margin-left: 40px;
+    padding-top: 10px;
+    font-family: 'Open Sans';
+    font-size: 35px;
+    padding-bottom: 35px;
+}
+
+.price-time sub {
+    font-size: 18px;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight: 500;
+}
+
+hr.card-top-border {
+    border-style: dashed;
+    color: #ffffffbe;
+}
+
+.pricing-card-section ul {
+    margin-top: 45px;
+    margin-left: 40px;
+    line-height: 40px;
+}
+
+.pricing-card-section ul li{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.enroll-btn {
+    margin-top: 30px;
+    margin-left: 23px;
+}
+
+.enroll-btn button {
+    padding: 15px;
+    width: 150px;
+    border: none;
+    outline: none;
+    background: #232d37;
+    border-radius: 6px;
+}
+
+.enroll-btn button a{
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+
+/*footer*/
+
+.footer-top-border{
+    border: 1px solid var(--bg-color-1);
+}
+
+.footer-logo img {
+    width: 12%;
+    margin-top: 10%;
+}
+
+.left-content {
+    float: left;
+    margin-top: 40px;
+    line-height: 40px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
+}
+
+.center-content {
+    margin-left: 60%;
+    margin-top: 3%;
+    color: #fff;
+    list-style: none;
+    line-height: 35px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.right-content {
+    float: right;
+    margin-top: -13%;
+    color: #fff;
+    list-style: none;
+    display: flex;
+}
+
+.right-content h1 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.right-content .icon-area{
+    margin-top: 20%;
+    margin-left: -40%;
+    display: flex;
+}
+
+
+.right-content .icon-area a i {
+    margin-right: 20px;
+    font-size: 25px;
+    color: #fff;
+}
+
+/*bottom footer*/
+
+.bottom-footer{
+    background: var(--bg-color-1);
+}
+
+.bottom-footer .copyright{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.bottom-footer .copyright a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
