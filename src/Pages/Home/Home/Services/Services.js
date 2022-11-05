@@ -4,19 +4,27 @@ import './Service.css';
 
 const Services = () => {
     return (
-        <div>
-      <section className="features" id="features">
+        <div className='container'>
+          <section className="features" id="features">
+          <div className='row'>
+            <div className='col-md-12'>
+      
   <div className="container">
     <div className="wrapper">
       <div className="features-header">
+        
         <span>Advanced &nbsp;&nbsp; Features</span>
         <h1>Data Science</h1>
         <p>Dynamically initiate market positioning total linkage with clicks-and-mortar technology progressively procrastinate compelling.</p>
+      </div>
+      </div>
       </div>
       <div className="data-Science">
         <div className="data-saince-item">
           <div className="data-card-section1">
             <div className="data-card-no1">
+            <div className='row'>
+              <div className='col-md-4'></div>
               <p>01</p>
               <h3 className="item-bold">Capture</h3>
               <ul>
@@ -48,6 +56,8 @@ const Services = () => {
                 <li>Decision Making</li>
               </ul>
             </div>
+            </div>
+            </div>
             <div className="data-card-no4">
               <p>04</p>
               <h3 className="item-bold">Analiyze</h3>
@@ -75,9 +85,9 @@ const Services = () => {
             <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
             <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
           </div>
+          </div>
         </div>
-      </div>
-    </div>
+      
   </div>
 </section>
 

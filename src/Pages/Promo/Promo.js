@@ -1,4 +1,6 @@
 import React from 'react';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// // import {  icon } from '@fortawesome/fontawesome-svg-core/import.macro' // <-- import styles to be used
 import './Promo.css';
 
 const Promo = () => {
@@ -14,10 +16,10 @@ const Promo = () => {
    
     <div className='row'>
       <div className='col-md-4'>
-      <div className="card-secton">
+      <div className="card-secton ">
         <div className="stay-c">
-          <i className="fa-solid fa-wifi" />
-          <h2>Stay Connected</h2>
+        <i class="fa-solid fa-wifi"></i>
+        <h2>Stay Connected</h2>
           <p>We are always at your service. Stay tuned with absolute ideas to get technical support on any topic.</p>
         </div>
 
@@ -27,21 +29,21 @@ const Promo = () => {
     
       <div className='col-md-4'>
         <div className="ep">
-          <i className="fa-solid fa-users" />
+        <i class="fa-solid fa-users"></i>
           <h2>Encourage Participation</h2>
           <p>We are always at your service. Stay tuned with absolute ideas to get technical support on any topic.</p>
         </div>
         </div>
         <div className='col-md-4'>
         <div className="bc">
-          <i className="fa-solid fa-bezier-curve" />
+        <i class="fa-solid fa-bezier-curve"></i>
           <h2>Build Connections</h2>
           <p>We are always at your service. Stay tuned with absolute ideas to get technical support on any topic.</p>
         </div>
         </div>
         </div>
         </div>
-     
+   
       
      
    
