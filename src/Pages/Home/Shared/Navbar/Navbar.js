@@ -1,5 +1,5 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-// import logo from '../../../../images/logo.png';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+import logo from '../../../Images/logo/logo.png';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import {  faShoppingCart, faUserCircle  } from '@fortawesome/free-solid-svg-icons';
 // import './Navbar.css';
@@ -17,79 +17,51 @@ const Navbar = () => {
   // const { user, logOut } = useAuth()
     return (
       <div>
-    <section id="home" classname="home">
-  <div classname="navbar">
-    <div classname="wrapper">
-      <div classname="container">
-        <div classname="logo">
-          <a href="Index.html"><img src="./assest/images/logo/logo.png" alt="logo" /></a>
-        </div>
-        <div classname="main-nav">
-        <ul>
-                            {/* <li><a href="Index.html">Home</a></li>
-                            <li><a target="_blank" href="./software.html">Software</a></li>
-                            <li><a target="_blank" href="./service.html">Service</a></li>
-                            <li><a target="_blank" href="./assest/Our Courses/course.html">Courses</a></li>
-                            <li><a target="_blank" href="./contact.html">Contact Us</a></li>
-                            <li><a target="_blank" href="./about-us.html">About Us</a></li>
-                            <li><a target="_blank" href="./review.html">Reviews</a></li>
-                            <li><a href="#">Help Center</a></li> */}
-                        </ul>
-
-                        <li className="nav-item active ">
-        {/* <a className="nav-link" href="#">Home <span className="sr-only"></span></a> */}
-        <Nav.Link  className="nav-link" as={Link} to="/home">Home</Nav.Link>
-      </li>
-      <li className="nav-item">
-        {/* <Link className='nave-link' to="/portfolio" >Our Portfolio</Link> */}
-        <Nav.Link  className="nav-link" as={Link} to="/portfolio">Software</Nav.Link>
-     
-      </li>
-      <li className="nav-item">
-        {/* <Link className="nav-link" to="/ourteam">Our Team <Link/> */}
-        <Nav.Link  className="nav-link" as={Link} to="/ourteam">Service</Nav.Link>
-        </li>
-      <li className="nav-item">
-       
-        {/* <Link className='nave-link' to="/contact" >Contact us</Link> */}
-        <Nav.Link  className="nav-link" as={Link} to="/contact">About Us</Nav.Link>
-      </li>
-      <li className="nav-item nav">
-      <Nav.Link  className="nav-link" as={Link} to="/login">Reviews</Nav.Link>
-      </li>
-       
-      <li className="nav-item nav">
-      <Nav.Link  className="nav-link" as={Link} to="/">Help Center</Nav.Link>
-      </li>
-       
-
-     {/* <a>
-            {
-              user ?.email ?
-               <>
-               {user?.displayName}  <Button onClick={ logOut }>Logout</Button>
-               <li className="nav-item">
-       
-       <Link className='nave-link' to="/contact" >Contact us</Link> */}
-        {/* <Nav.Link  className="nav-link" as={Link} to="/dashboard">Dashboard</Nav.Link>
-      </li>
-                </>
-               
-               : <Nav.Link className='nav' as={Link} to="/login">Login</Nav.Link>
-            }
-            
-          </a>  */} 
-      
  
+      
+  
+  <nav className="navbar navbar-expand-lg  ">
+  <div className="container-fluid ">
+    <a className="navbar-brand" href="#"> 
+    <div classname="logo">
+          <a href=""> <img  className="logo" src={logo}  width="150px" height="120px" alt="logo" /></a>
         </div>
-      </div>
+    </a>
+    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon" />
+    </button>
+    <div className="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul className="navbar-nav me-auto mb-4 mb-lg-0 m-6 ">
+        <li className="nav-item  ">
+          <a className="nav-link active text-white" aria-current="page" href="#">Home</a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link text-white" href="#">Link</a>
+        </li>
+        <li className="nav-item dropdown">
+          <a className="nav-link text-white dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul className="dropdown-menu">
+            <li><a className="dropdown-item" href="#">Action</a></li>
+            <li><a className="dropdown-item" href="#">Another action</a></li>
+            <li><hr className="dropdown-divider" /></li>
+            <li><a className="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link disabled text-white">Disabled</a>
+        </li>
+      </ul>
+      <form className="d-flex" role="search">
+        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+        <button className="btn btn-outline-success" type="submit">Search</button>
+      </form>
     </div>
   </div>
-</section>
+</nav>
 
 </div>
-
-
  
     );
 };

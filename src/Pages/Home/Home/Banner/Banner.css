@@ -1,13 +1,84 @@
 
+
 .banner-head{
-    color:#111430;
+    margin-top: 14%;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-style: italic;
+}
+.banner-head p{
+    color: #fff;
+    font-size: 17px;
+    width: 600px;
+    padding-top: 30px;
+    line-height: 25px;
+    font-family: 'Lato', sans-serif;
+    text-align: justify;
+}
+.banner-span{
+    color: #df001a;
+    font-weight: 600;
+    font-style: italic;
+}
+.banner-img{
+    width: 100%;
+    height: 100%;
+    margin-top: 14%;
 }
 .banner-button{
-    background-color: #F63E7B;
-    color:white;
-    
+    margin-top: 60px;
+    display: flex;
 
 }
-.btn:hover{
-    color:black;
+.contact-with-us-btn1{
+    margin-left: 5%;
 }
+ .hire-us-btn1 a {
+    color: #fff;
+    background: #00464c;
+    padding: 17px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+ .contact-with-us-btn1 a {
+    color: #fff;
+    background: transparent;
+    border: 1px solid #00464c;
+    padding: 17px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+ .contact-with-us-btn1 a:hover{
+    background: #00464c;
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+  
+    .banner-button{
+        width: 50%;
+    }
+ 
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .banner-button{
+        width: 50%;
+    }
+
+  }
