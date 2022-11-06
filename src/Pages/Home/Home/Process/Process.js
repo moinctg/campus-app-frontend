@@ -19,7 +19,7 @@ const Process = () => {
         </div>
       </div>
       <div classname="row">
-        <div classname="col-md-3">
+        <div classname="col-md-2">
           <div className="process-card">
             <div className="research">
               <span className="card-hover">1</span>

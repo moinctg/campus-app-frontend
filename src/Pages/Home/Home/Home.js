@@ -8,6 +8,7 @@ import Promo from '../../Promo/Promo';
 import Experts from '../../Experts/Experts';
 import Software from './Software/Software';
 import Process from './Process/Process';
+import AboutUs from './AboutUs/AboutUs';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <Banner> </Banner>
             <Promo></Promo>
             <Service></Service>
+            <AboutUs></AboutUs>
             <Experts></Experts>
             <Process></Process>
             <Software></Software>
