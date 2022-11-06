@@ -1,5 +1,17 @@
 
-.footer{
-    background-color: #F63E7B;
-    font-family: 'Poppins', sans-serif;
+bottom-footer{
+    background: var(--bg-color-1);
+}
+
+.bottom-footer .copyright{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.bottom-footer .copyright a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
 }

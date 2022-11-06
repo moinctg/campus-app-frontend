@@ -5,8 +5,9 @@ import Service from './Services/Services';
 import Contact from './Contact/Contact';
 import Footer from './Footer/Footer';
 import Promo from '../../Promo/Promo';
-import Experts from '../../Exparts/Experts';
+import Experts from '../../Experts/Experts';
 import Software from './Software/Software';
+import Process from './Process/Process';
 
 const Home = () => {
     return (
@@ -15,6 +16,7 @@ const Home = () => {
             <Promo></Promo>
             <Service></Service>
             <Experts></Experts>
+            <Process></Process>
             <Software></Software>
             <Contact></Contact>
             <Footer></Footer>

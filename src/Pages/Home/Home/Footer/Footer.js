@@ -3,8 +3,7 @@ import './Footer.css';
 
 const Footer = () => {
     return (
-        <div className="Container footer py-4 mt-4" >
-         <div>
+      <div>
   <hr className="footer-top-border" />
   <section id="footer" className="footer">
     <div className="container">
@@ -51,9 +50,6 @@ const Footer = () => {
   </section>
 </div>
 
-
-          
-        </div>
     );
 };
 
