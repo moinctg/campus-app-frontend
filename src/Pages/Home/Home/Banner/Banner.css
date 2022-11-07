@@ -67,18 +67,72 @@
  .contact-with-us-btn1 a:hover{
     background: #00464c;
 }
-@media only screen and (min-width: 600px) {
-    /* For tablets: */
-  
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+   .banner-head{
+    width: 50%;
+   }
+    .banner-head p{
+        width: 50%;
+    }
+    banner-img{
+        width: 50%;
+    }
     .banner-button{
         width: 50%;
     }
- 
-  }
-  @media only screen and (min-width: 768px) {
-    /* For desktop: */
-    .banner-button{
-        width: 50%;
+    .hire-us-btn1 a{
+        width: 30%;
+       padding: 10px;
     }
+    
+    .contact-with-us-btn1 a{
+        width: 35%;
+        height: 35%;
+    }
+    
+ }
 
-  }
+/* // Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) { 
+    .banner-head{
+        width: 65%;
+       }
+        .banner-head p{
+            width: 50%;
+        }
+        banner-img{
+            width: 50%;
+        }
+        .banner-button{
+            width: 50%;
+        }
+        .hire-us-btn1 a{
+            width: 50%;
+           padding: 15px;
+        }
+        
+        .contact-with-us-btn1 a{
+            width: 50%;
+            padding: 15px;
+        }
+
+ }
+
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) { 
+
+ }
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+
+ }
+
+/* // X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) { 
+
+ }
+
+/* // XX-Large devices (larger desktops)
+// No media query since the xxl breakpoint has no upper bound on its width */
