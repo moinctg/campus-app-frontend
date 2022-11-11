@@ -1,3 +1,14 @@
+
+.bg-card{
+   background-color: #453580;
+}
+.bg-card-mid{
+   background-color: #5237b6;
+}
+.bg-card-right{
+   background-color: #4f3e8f;
+}
+
 .promo-header{
     margin-top: 15%;
 }

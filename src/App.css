@@ -1,11 +1,5 @@
-/*Roboto 300*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-/*Open Sans 700*/
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
-/*Lato 400*/
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-/*Poppins 800*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+
 
 
 *{
@@ -13,14 +7,8 @@
     padding: 0;
 }
 
-:root{
-    /* --menu-hover-color: #ff001e; */
-    --bg-color: #222A33;
-    --bg-color-01:#0b1e33;
-    --bg-color-1: #00464c40;
-    --top-border: #093f4471;
-}
+
 
 body{
-    background: linear-gradient(to left, #002e1c, #002f33);
+    background: linear-gradient(to left, #3656e4, #8978c4);
 }
