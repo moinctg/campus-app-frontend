@@ -6,13 +6,14 @@
 .about-content-header {
     margin-top: 5%;
     margin-bottom: 10%;
-    background: linear-gradient(to left, #002e1c, #002f33);
+   
 }
 
 .about-content-header h1 {
     color: #fff;
     font-family: 'Poppins', sans-serif;
     font-size: 60px;
+    text-align: center;
     text-transform: uppercase;
     letter-spacing: 4px;
 }
@@ -23,6 +24,8 @@
     font-family: 'Lato', sans-serif;
     font-size: 19px;
     margin-top: 10px;
+    text-align: center;
+    margin-left: 300px;
 }
 
 .about-us-card-section{

@@ -3,34 +3,48 @@ import './AboutUs.css';
 const AboutUs = () => {
     return (
       
-  <div>
+  <div className='container'>
     <section id="about-us" className="about-us">
       <div className="container">
         <div className="wrapper">
+          <div className='row'>
+            <div className='col-md-12'>
           <div className="about-content-header">
             <h1>Team - Creative Campus</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo commodi officia nostrum mollitia tenetur delectus dolorem nisi id similique cumque.</p>
+            <p className='text-center'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo commodi officia nostrum mollitia tenetur delectus dolorem nisi id similique cumque.</p>
           </div>
+          </div>
+          </div>
+         
           <div className="about-us-card-section">
+            <div className='row'>
+            <div className='col-md-2'>
             <div className="about-card1 about-card-design">
               <img src="./assest/images/team member's/CEO OF FOUNDER.png" alt="CEO OF FOUNDER.png" />
               <h1>Tanjim Chowdhury</h1>
               <h3>CEO OF FOUNDER</h3>
             </div>
+            </div>
+            <div className='col-md-2'>
             <div className="about-card2 about-card-design">
               <img src="./assest/images/team member's/PROJECT  MANAGER.png" alt="PROJECT  MANAGER.png" />
               <h1>M A Karim Munna</h1>
               <h3>PROJECT MANAGER</h3>
             </div>
+            </div>
+            <div className='col-md-2'>
             <div className="about-card3 about-card-design">
               <img src="./assest/images/team member's/ADVISOR.png" alt="ADVISOR.png.png" />
               <h1>Jubayer Admed</h1>
               <h3>ADVISOR</h3>
             </div>
+            </div>
+            <div className='col-md-2'>
             <div className="about-card4 about-card-design">
               <img src="./assest/images/team member's/ANDROID APPS DEVELOPER.png" alt="ANDROID APPS DEVELOPER.png" />
               <h1>Emdadul Huqe</h1>
               <h3>ANDROID APPS DEVELOPER</h3>
+            </div>
             </div>
             <div className="about-card5 about-card-design">
               <img src="./assest/images/team member's/ANDROID APPS DEVELOPER -1.png" alt="ANDROID APPS DEVELOPER -1.png" />
@@ -41,6 +55,7 @@ const AboutUs = () => {
               <img src="./assest/images/team member's/IOS APPS DEVELOPER (FROM PAKISTAN).png" alt="IOS APPS DEVELOPER (FROM PAKISTAN).png" />
               <h1>Rahinur Islam</h1>
               <h3>IOS APPS DEVELOPER (FROM PAKISTAN)</h3>
+            </div>
             </div>
             <div className="about-card7 about-card-design">
               <img src="./assest/images/team member's/IOS APPS DEVELOPER.png" alt="IOS APPS DEVELOPER.png" />
@@ -148,6 +163,7 @@ const AboutUs = () => {
               <h3>SOFTWARE ENGINEER</h3>
             </div>
           </div>
+       
         </div>
       </div>
     </section>

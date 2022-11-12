@@ -1,5 +1,11 @@
 import React from 'react';
 import './Service.css';
+import img1 from '../../../Images/capture.png';
+import img2 from '../../../Images/process.png';
+import img3 from '../../../Images/communicate.png';
+import img4 from '../../../Images/analize.png';
+import img5 from '../../../Images/maintain.png';
+import img6 from '../../../Images/deploy.png';
 
 
 const Services = () => {
@@ -19,80 +25,108 @@ const Services = () => {
       </div>
       </div>
       </div>
-      <div className="data-Science">
-        <div className="data-saince-item">
-          <div className="data-card-section1">
-            <div className="data-card-no1">
-            <div className='row'>
-              <div className='col-md-4'></div>
-              <p>01</p>
-              <h3 className="item-bold">Capture</h3>
-              <ul>
-                <li>Data Acquisition</li>
-                <li>Data Entry</li>
-                <li>Signal Reception</li>
-                <li>Data Extraction</li>
-              </ul>
-            </div>
-            <div className="data-card-no2">
-              <p>02</p>
-              <h3 className="item-bold">Process</h3>
-              <ul>
-                <li>Data Mining</li>
-                <li>Clustering/Classidication</li>
-                <li>Data Modeling</li>
-                <li>Data Summarization</li>
-              </ul>
-            </div>
-          </div>
-          <div className="data-card-section2">
-            <div className="data-card-no3">
-              <p>03</p>
-              <h3 className="item-bold">Communicate</h3>
-              <ul>
-                <li>Data Reporting</li>
-                <li>Data Visualization</li>
-                <li>Business Intelligence</li>
-                <li>Decision Making</li>
-              </ul>
-            </div>
-            </div>
-            </div>
-            <div className="data-card-no4">
-              <p>04</p>
-              <h3 className="item-bold">Analiyze</h3>
-              <ul>
-                <li>Exploratory/Confirmatory</li>
-                <li>Predictive Analysis</li>
-                <li>Regression</li>
-                <li>Text Mining</li>
-                <li>Qualitative Analysis</li>
-              </ul>
-            </div>
-          </div>
-          <div className="data-card-section3">
-            <div className="data-card-no5">
-              <p>05</p>
-              <h3 className="item-bold">Maintain</h3>
-              <ul>
-                <li>Data Warehousing</li>
-                <li>Data Cleansing</li>
-                <li>Data Staging</li>
-                <li>Data Processing</li>
-                <li>Data Architecture</li>
-              </ul>
-            </div>
-            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-            <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-          </div>
-          </div>
-        </div>
-      
+      </div>
+      </div>
+      <div className="row row-cols-1 row-cols-md-3 g-2 p-3 mb-3  rounded">
+      <div className="col shadow-lg  p-3 mb-3  rounded">
+    <div className="card bg-card d-flex align-items-center justify-content-between">
+      <img src={img1} className="card-img-top w-25 pt-4 text-white" alt="..." />
+      <div className="card-body">
+        <h5 className="card-title text-center text-white">Process</h5>
+        <p className="card-text text-center text-white"> <ul>
+          <li>Data Acquisition</li>
+          <li>Data Acquisition</li>
+          <li>Data Acquisition</li>
+          <li>Data Acquisition</li>
+          
+          </ul></p>
+      </div>
+    </div>
   </div>
-</section>
+  <div className="col shadow-lg  p-3 mb-3  rounded">
+    <div className="card bg-card d-flex align-items-center justify-content-between">
+      <img src={img2} className="card-img-top w-25 pt-4 text-white" alt="..." />
+      <div className="card-body">
+        <h5 className="card-title text-center text-white">Process</h5>
+        <p className="card-text text-center text-white"> <ul>
+          <li>Data Acquisition</li>
+          <li>Data Acquisition</li>
+          <li>Data Acquisition</li>
+          <li>Data Acquisition</li>
+          
+          </ul></p>
+      </div>
+    </div>
+  </div>
+  <div className="col shadow-lg  p-3 mb-3  rounded">
+    <div className="card bg-card d-flex align-items-center justify-content-between">
+      <img src={img3} className="card-img-top w-25 pt-4 text-white" alt="..." />
+      <div className="card-body">
+        <h5 className="card-title text-center text-white">Communicate</h5>
+        <p className="card-text text-center text-white"> <ul>
+          <li>Data Acquisition</li>
+          <li>Data Acquisition</li>
+          <li>Data Acquisition</li>
+          <li>Data Acquisition</li>
+          
+          </ul></p>
+      </div>
+    </div>
+  </div>
+  <div className="col shadow-lg  p-3 mb-3  rounded">
+    <div className="card bg-card  d-flex align-items-center justify-content-between">
+      <img src={img4} className="card-img-top w-25 pt-4 text-white" alt="..." />
+      <div className="card-body">
+        <h5 className="card-title text-center text-white">Analize</h5>
+        <p className="card-text text-center text-white"> <ul>
+          <li>Data Acquisition</li>
+          <li>Data Acquisition</li>
+          <li>Data Acquisition</li>
+          <li>Data Acquisition</li>
+          
+          </ul></p>
+      </div>
+    </div>
+  </div>
+  <div className="col shadow-lg  p-3 mb-3  rounded">
+    <div className="card bg-card d-flex align-items-center justify-content-between">
+      <img src={img5} className="card-img-top w-25 pt-4 text-white" alt="..." />
+      <div className="card-body">
+        <h5 className="card-title text-center text-white">Maintain</h5>
+        <p className="card-text text-center text-white"> <ul>
+          <li>Data Acquisition</li>
+          <li>Data Acquisition</li>
+          <li>Data Acquisition</li>
+          <li>Data Acquisition</li>
+          
+          </ul></p>
+      </div>
+    </div>
+  </div>
+  <div className="col shadow-lg  p-3 mb-3  rounded">
+    <div className="card bg-card d-flex align-items-center justify-content-between">
+      <img src={img6} className="card-img-top  w-25 pt-4 text-white" alt="..." />
+      <div className="card-body">
+        <h5 className="card-title text-center text-white">Deployment</h5>
+   
+        <p className="card-text text-center text-white "> <ul>
+          <li>Data Acquisition</li>
+          <li>Data Acquisition</li>
+          <li>Data Acquisition</li>
+          <li>Data Acquisition</li>
+          
+          </ul></p>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
 
-        </div>
-    );
+      </section>
+      </div>
+      
+    );  
 };
 
 export default Services;
