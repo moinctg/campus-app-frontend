@@ -10,21 +10,22 @@
 }
 
 .development-experts-left-part .dv-card1,.dv-card2, .dv-card3 {
-    max-width: 600px;
-    margin-top: 15%;
+    max-width: 700px;
+    margin-top: 25%;
     background: var(--bg-color-1);;
-    padding: 40px;
+    padding: 20px;
+    margin-bottom: 20px;
     height: 23vh;
     border-radius: 10px;
     transition: 0.5s;
 }
 
 .development-experts-left-part .dv-card1:hover,.dv-card2:hover, .dv-card3:hover{
-    transform: translateY(-10px)
+    transform: translateY(-8px)
 }
 
 .dv-card2, .dv-card3{
-    margin-top: 2%;
+    margin-top: 8%;
 }
 
 .development-experts-left-part .dv-card1 i, .dv-card2 i, .dv-card3 i {
@@ -59,3 +60,8 @@
  margin-right: -24%;
     margin-top: -73%;
 } */
+
+.bg{
+    background-color: (#002e1c);
+
+}

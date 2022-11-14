@@ -1,4 +1,4 @@
-/* .footer-top-border{
+.footer-top-border{
     border: 1px solid var(--bg-color-1);;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .center-content {
-    margin-left: 60%;
+    margin-left: 30%;
     margin-top: 3%;
     color: #fff;
     list-style: none;
@@ -52,7 +52,7 @@
 
 /*botto footer*/
 
-/* .bottom-footer{
+.bottom-footer{
     background: var(--bg-color-1);
 }
 
@@ -67,4 +67,4 @@
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-} */ 
+} 

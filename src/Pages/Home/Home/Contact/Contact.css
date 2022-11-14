@@ -30,7 +30,7 @@
     outline: none;
     color: #fff;
     padding: 10px;
-    width: 25%;
+    width: 20%;
     height: 30px;
     margin-bottom: 8%;
     font-family: 'Roboto', sans-serif;
@@ -107,7 +107,7 @@
     font-family: 'Roboto', sans-serif;
     padding: 10px;
     border-radius: 10px;
-    width: 100%;
+    width: 50%;
     height: 16vh;
     margin-bottom: 10%;
 }
@@ -129,7 +129,7 @@
     font-family: 'Roboto', sans-serif;
     padding: 10px;
     border-radius: 10px;
-    width: 100%;
+    width: 50%;
     height: 12vh;
     margin-bottom: 10%;
 }
@@ -140,7 +140,7 @@
     line-height: 22px;
     font-size: 14px;
     font-style: italic;
-    width: 220px;
+    width: 150px;
     margin-top: -30px;
     margin-left: 55px;
 }
@@ -151,7 +151,7 @@
     line-height: 22px;
     font-size: 16px;
     font-style: italic;
-    width: 220px;
+    width: 150px;
     margin-top: -25px;
     margin-left: 60px;
 }
@@ -162,7 +162,7 @@
     line-height: 22px;
     font-size: 17px;
     font-style: italic;
-    width: 220px;
+    width: 150px;
     margin-top: -25px;
     margin-left: 60px;
 }

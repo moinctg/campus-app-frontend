@@ -35,7 +35,7 @@
     color: #fff;
     text-align: center;
     padding: 40px;
-    width: 25%;
+    width: 20%;
     border-radius: 15px;
     transition: all 0.5s ease-in-out;
 }
@@ -87,4 +87,10 @@
 .research, .designing, 
 .building {
     margin-right: 25px;
+}
+
+.research:hover,.designing:hover,.building:hover,.deliver:hover{
+    background-color: #00464c;
+    border-radius: 15px;
+    box-shadow: 1px #00464c;
 }

@@ -1,12 +1,12 @@
 
 .bg-card{
-   background-color: #453580;
+   background-color: #00464c;
 }
 .bg-card-mid{
-   background-color: #5237b6;
+   background-color: #00464c;
 }
 .bg-card-right{
-   background-color: #4f3e8f;
+   background-color: #00464c;
 }
 
 /* .promo-header{
@@ -46,11 +46,12 @@
     padding-bottom: 10%;
 }
 
-.promo-header .card-secton{
+ .card-section{
     
     background: #00464c40;
     border-radius: 15px;
-    padding: 30px;
+    
+    padding-top: 180px;
     margin-bottom: 6px;
 }
 .stay-c {
@@ -87,7 +88,14 @@
     height: 215px;
     border-radius: 20px;
 }
-
+.card-section-icon{ 
+    /* margin-left: 40%; */
+    /* align-items: center; */
+    text-align: center;
+    
+    color: #fff;
+    /* font-size: 60px; */
+}
 /* .stay-c {
     padding: 50px;
     height: 215px;
@@ -110,11 +118,7 @@
 
 
 
- .card-secton i{
-    margin-left: 40%;
-    color: #fff;
-    font-size: 60px;
-}
+ 
 
  .card-secton h2 {
     color: #fff;

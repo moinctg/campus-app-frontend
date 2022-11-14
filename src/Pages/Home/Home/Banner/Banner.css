@@ -1,7 +1,32 @@
 .panda-btn-buynow{
-  background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
   color: #fff;
-  border: none;
-  border-radius: 8px;
-  padding: 9px 25px;
+  background: #00464c;
+  padding: 17px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.panda-btn-contact{
+  color: #fff;
+  background: transparent;
+  border: 1px solid #00464c;
+  padding: 17px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  text-transform: uppercase;
+  transition: 0.5s;
+  text-decoration: none;
+
+}
+.panda-btn-contact:hover{
+  background: #00464c;
 }
