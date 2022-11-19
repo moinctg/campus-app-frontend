@@ -9,6 +9,7 @@ import Experts from '../../Experts/Experts';
 import Software from './Software/Software';
 import Process from './Process/Process';
 import AboutUs from './AboutUs/AboutUs';
+import Review from './Review/Review';
 
 const Home = () => {
     return (
@@ -20,6 +21,7 @@ const Home = () => {
             <Experts></Experts>
             <Process></Process>
             <Software></Software>
+            <Review></Review>
             <Contact></Contact>
             <Footer></Footer>
         </div>

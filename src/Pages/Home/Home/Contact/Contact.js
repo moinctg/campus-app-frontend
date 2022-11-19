@@ -35,13 +35,20 @@ const Contact = () => {
                 <a href="#">Submit Now &nbsp;<i className="fa-solid fa-right-long" /></a>
                 
               </div>
-              </form>
+              </form>-+
+
+
+
+
+
+
+               
           
         </div>
         </div>
         </div>
         </div>
-        <div className='col-md-6'>
+        {/* <div className='col-md-6'>
         <div className="contact-right-section">
                 <div className="card-1">
                   <h2>Office Address</h2>
@@ -57,7 +64,7 @@ const Contact = () => {
                 </div>
               </div>
 
-        </div>
+        </div> */}
       </div>
       
               

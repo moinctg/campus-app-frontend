@@ -1,130 +1,101 @@
-import React from 'react';
+
+import React, { useState, useEffect } from 'react';
+import img1 from '../../../Images/coding.png';
+import  MyTimeline from './MyTimeline';
 import './Service.css';
-import img1 from '../../../Images/capture.png';
-import img2 from '../../../Images/process.png';
-import img3 from '../../../Images/communicate.png';
-import img4 from '../../../Images/analize.png';
-import img5 from '../../../Images/maintain.png';
-import img6 from '../../../Images/deploy.png';
+
 
 
 const Services = () => {
-    return (
-        <div className='container'>
-          <section className="features" id="features">
-          <div className='row'>
-            <div className='col-md-12'>
-      
-  <div className="container">
-    <div className="wrapper">
-      <div className="features-header">
-        
-        <span>Advanced &nbsp;&nbsp; Features</span>
-        <h1>Data Science</h1>
-        <p>Dynamically initiate market positioning total linkage with clicks-and-mortar technology progressively procrastinate compelling.</p>
-      </div>
-      </div>
-      </div>
-      </div>
-      </div>
-      <div className="row row-cols-1 row-cols-md-3 g-2 p-3 mb-3  rounded">
-      <div className="col shadow-lg  p-3 mb-3  rounded">
-    <div className="card bg-card d-flex align-items-center justify-content-between">
-      <img src={img1} className="card-img-top w-25 pt-4 text-white" alt="..." />
-      <div className="card-body">
-        <h5 className="card-title text-center text-white">Process</h5>
-        <p className="card-text text-center text-white"> <ul>
-          <li>Data Acquisition</li>
-          <li>Data Acquisition</li>
-          <li>Data Acquisition</li>
-          <li>Data Acquisition</li>
-          
-          </ul></p>
-      </div>
-    </div>
-  </div>
-  <div className="col shadow-lg  p-3 mb-3  rounded">
-    <div className="card bg-card d-flex align-items-center justify-content-between">
-      <img src={img2} className="card-img-top w-25 pt-4 text-white" alt="..." />
-      <div className="card-body">
-        <h5 className="card-title text-center text-white">Process</h5>
-        <p className="card-text text-center text-white"> <ul>
-          <li>Data Acquisition</li>
-          <li>Data Acquisition</li>
-          <li>Data Acquisition</li>
-          <li>Data Acquisition</li>
-          
-          </ul></p>
-      </div>
-    </div>
-  </div>
-  <div className="col shadow-lg  p-3 mb-3  rounded">
-    <div className="card bg-card d-flex align-items-center justify-content-between">
-      <img src={img3} className="card-img-top w-25 pt-4 text-white" alt="..." />
-      <div className="card-body">
-        <h5 className="card-title text-center text-white">Communicate</h5>
-        <p className="card-text text-center text-white"> <ul>
-          <li>Data Acquisition</li>
-          <li>Data Acquisition</li>
-          <li>Data Acquisition</li>
-          <li>Data Acquisition</li>
-          
-          </ul></p>
-      </div>
-    </div>
-  </div>
-  <div className="col shadow-lg  p-3 mb-3  rounded">
-    <div className="card bg-card  d-flex align-items-center justify-content-between">
-      <img src={img4} className="card-img-top w-25 pt-4 text-white" alt="..." />
-      <div className="card-body">
-        <h5 className="card-title text-center text-white">Analize</h5>
-        <p className="card-text text-center text-white"> <ul>
-          <li>Data Acquisition</li>
-          <li>Data Acquisition</li>
-          <li>Data Acquisition</li>
-          <li>Data Acquisition</li>
-          
-          </ul></p>
-      </div>
-    </div>
-  </div>
-  <div className="col shadow-lg  p-3 mb-3  rounded">
-    <div className="card bg-card d-flex align-items-center justify-content-between">
-      <img src={img5} className="card-img-top w-25 pt-4 text-white" alt="..." />
-      <div className="card-body">
-        <h5 className="card-title text-center text-white">Maintain</h5>
-        <p className="card-text text-center text-white"> <ul>
-          <li>Data Acquisition</li>
-          <li>Data Acquisition</li>
-          <li>Data Acquisition</li>
-          <li>Data Acquisition</li>
-          
-          </ul></p>
-      </div>
-    </div>
-  </div>
-  <div className="col shadow-lg  p-3 mb-3  rounded">
-    <div className="card bg-card d-flex align-items-center justify-content-between">
-      <img src={img6} className="card-img-top  w-25 pt-4 text-white" alt="..." />
-      <div className="card-body">
-        <h5 className="card-title text-center text-white">Deployment</h5>
-   
-        <p className="card-text text-center text-white "> <ul>
-          <li>Data Acquisition</li>
-          <li>Data Acquisition</li>
-          <li>Data Acquisition</li>
-          <li>Data Acquisition</li>
-          
-          </ul></p>
-      </div>
-    </div>
-  </div>
-</div>
-      
+  const myList = [
+    { 
+      Image : "https://png.pngtree.com/png-clipart/20200701/original/pngtree-hacker-coding-with-a-keyboard-and-a-binary-background-color-illustration-png-image_5426760.jpg",
+      data: "step-1",
+      status: "Download",
+      details1: "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem loreom",
+      name: "Extreme ",
     
+      t: "maor k"
+    },
+    {
+      data: "2018-03-22",
+      status: "status",
+      details1: "Extreme  at ",
+      name: "Extreme ",
+      t: "s k"
+    },
+    {
+      data: "2018-03-22",
+      status: "status",
+      details1: "Extreme at me2",
+      name: "Extreme ",
+      t: "Demo"
+    },
+    {
+      data: "2018-03-22",
+      status: "status",
+      details1: "conclusion lorem imp3",
+      statusE: "In Progress",
+      name: "example some",
+      t: "Maor tt"
+    },
+    {
+      data: "2018-03-22",
+      status: "status",
+      details1: "Extreme  at Maor Tt4",
+      name: "Extreme ",
+      t: "Maor tt"
+    },
+    {
+      data: "2018-03-22",
+      status: "status",
+      details1: "Extreme  at Demoko5",
+      name: "Extreme ",
+      t: "Demo"
+    },
+    {
+      data: "2018-03-22",
+      status: "status",
+      details1: "Extreme  at Maor Tt6",
+      statusE: "In Progress",
+      name: "Extreme ",
+      t: "Maor tt"
+    },
+    {
+      data: "2018-03-22",
+      status: "status",
+      details1: "Extreme  at Maor Tt7",
+      name: "Extreme ",
+      t: "Maor Tnt"
+    }
+  ];
+  const [labelWidth, setlabelWidth] = useState(140);
+  const [amountMove, setamountMove] = useState(140);
+  const [lineColor, setlineColor] = useState("#49bd95");
+  const [darkMode, setdarkMode] = useState(true);
+  const [eventTextAlignCenter, seteventTextAlignCenter] = useState(true);
+    return (
+      <div>
 
-      </section>
+
+  return (
+    <div className="App">
+      <div className="title">
+        Horizontal Timeline
       </div>
+      <MyTimeline
+        myList={myList}
+        labelWidth={labelWidth}
+        amountMove={amountMove}
+        lineColor={lineColor}
+        darkMode={darkMode}
+        eventTextAlignCenter={eventTextAlignCenter}
+      />
+    </div>
+        
+      </div>
+
+       
       
     );  
 };
