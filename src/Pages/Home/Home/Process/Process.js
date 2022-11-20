@@ -6,7 +6,7 @@ const Process = () => {
   <section className="process" id="process">
     <div classname="container">
       <div classname="row">
-        <div classname="col-lg-12">
+        <div classname="col-sm-12">
           <div className="container">
             <div className="wrapper">
               <div className="process-header">

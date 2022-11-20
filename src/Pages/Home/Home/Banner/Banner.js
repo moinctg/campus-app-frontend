@@ -27,7 +27,7 @@ Your Business
 
                         </p>
                       
-                        <button className="panda-btn-buynow">HIRE FORM US </button>
+                        <button className="panda-btn-buy">HIRE FORM US </button>
                         
                         <button className="panda-btn-contact m-3">CONTACT WITH US</button>
                 </div>
@@ -40,9 +40,18 @@ Your Business
             <div class="row p-5 mb-2  text-dark d-flex align-items-center">
                 <div class="col-lg-6 ">
                     <h1 className="text-white">Best IT Course</h1>
-                    <p className='text-white'>This is the best x-box in the world for people who just want to waste time in front of fake sports</p>
+                    <p className='text-white'>Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim
+                    labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi
+                    animcupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est
+                    aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia
+                    pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit
+                    commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa
+                    proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia
+                    eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim.
+                    Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et
+                    culpa duis.</p>
                        
-                        <button class="panda-btn-buynow">Buy Now </button>
+                        <button class="panda-btn-buy">Buy Now </button>
                 </div>
                 <div class="col-lg-6">
                     <img src={img3} class="d-block w-100" alt="..."/>
@@ -52,26 +61,43 @@ Your Business
         <div class="carousel-item">
             <div class="row p-5 mb-2  text-dark d-flex align-items-center">
                 <div class="col-lg-6 ">
-                    <h1 className="text-white">Best IT Course</h1>
-                    <p className='text-white'>This is the best x-box in the world for people who just want to waste time in front of fake sports</p>
-                        
-                        <button class="panda-btn-buynow">Buy Now </button>
+                    <h1 className="text-white">Professonal Course</h1>
+                    <p className='text-white'>Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim
+                    labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi
+                    animcupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est
+                    aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia
+                    pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit
+                    commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa
+                    proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia
+                    eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim.
+                    Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et
+                    culpa duis.
+                    </p>
+                        <button class="panda-btn-buy">Buy Now </button>
                 </div>
                 <div class="col-lg-6">
-                    <img src={img3} class="d-block w-100" alt="..."/>
+                    <img src={img1} class="d-block w-100" alt="..."/>
                 </div>
             </div>
         </div>
         <div class="carousel-item">
             <div class="row p-5 mb-2  text-dark d-flex align-items-center">
                 <div class="col-lg-6 ">
-                    <h1 className="text-white">Best IT Course</h1>
-                    <p className='text-white'>This is the best x-box in the world for people who just want to waste time in front of fake sports</p>
-                     
-                        <button class="panda-btn-buynow">Buy Now </button>
+                    <h1 className="text-white">Advanced Course</h1>
+                    <p className='text-white'>Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim
+                    labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi
+                    animcupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est
+                    aliquip amet voluptate voluptate dolor minim nulla est proident. Nostrud officia
+                    pariatur ut officia. Sit irure elit esse ea nulla sunt ex occaecat reprehenderit
+                    commodo officia dolor Lorem duis laboris cupidatat officia voluptate. Culpa
+                    proident adipisicing id nulla nisi laboris ex in Lorem sunt duis officia
+                    eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim.
+                    Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et
+                    culpa duis </p>
+                        <button class="panda-btn-buy">Buy Now </button>
                 </div>
                 <div class="col-lg-6">
-                    <img src={img3} class="d-block w-100" alt="..."/>
+                    <img src={img2} class="d-block w-100" alt="..."/>
                 </div>
             </div>
         </div>

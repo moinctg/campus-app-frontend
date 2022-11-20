@@ -4,13 +4,13 @@ import './Contact.css';
 const Contact = () => {
     return (
       
-        <div className="container pt-4">
-       <section className="contact" id="contact">
+        <div className="container mt-4">
+      
 
    
 
-      <div className='row'>
-        <div className='col-md-6'>
+      <div className='row pt-3'>
+        <div className='col-md-8 p-4' >
         <div className="contact-section">
         <div className="contact-form">
           <h1>Get In Touch</h1>
@@ -35,7 +35,7 @@ const Contact = () => {
                 <a href="#">Submit Now &nbsp;<i className="fa-solid fa-right-long" /></a>
                 
               </div>
-              </form>-+
+              </form>
 
 
 
@@ -48,23 +48,23 @@ const Contact = () => {
         </div>
         </div>
         </div>
-        {/* <div className='col-md-6'>
-        <div className="contact-right-section">
+        <div className='col-md-4 p-4"'>
+        <div className="container ">
                 <div className="card-1">
-                  <h2>Office Address</h2>
-                  <i className="fa-solid fa-location-dot" /> <p>Uttara, Uttarkhan, Gazipara, Hashem Gazi Road, Uttara Dhaka 1230.</p>  
+                  <h2 className='text-white text-center'>Office Address</h2>
+                  <i className="fa-solid fa-location-dot text-white text-center" /> <p className='text-white'>Uttara, Uttarkhan, Gazipara, Hashem Gazi Road, Uttara Dhaka 1230.</p>  
                 </div>
                 <div className="card-2">
-                  <h2>Official Mail</h2>
-                  <i className="fa-solid fa-envelope" /> <p>creativecampusbd@gmail.com</p>  
+                  <h2 className='text-white text-center'>Official Mail</h2>
+                  <i className="fa-solid fa-envelope text-white" /> <p className='text-white' >creativecampusbd@gmail.com</p>  
                 </div>
                 <div className="card-3">
-                  <h2>Official Contact No.</h2>
-                  <i className="fa-solid fa-phone" /> <p>+880 19863 - 06582</p>  
+                  <h2 className='text-white text-center'>Official Contact No.</h2>
+                  <i className="fa-solid fa-phone text-white" /> <p className='text-white'>+880 19863 - 06582</p>  
                 </div>
               </div>
 
-        </div> */}
+        </div>
       </div>
       
               
@@ -73,7 +73,7 @@ const Contact = () => {
         
    
  
-</section>
+
 
       </div>
     );
