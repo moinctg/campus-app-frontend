@@ -9,8 +9,7 @@ import './Service.css';
 const Services = () => {
   const myList = [
     { 
-      Image : "https://png.pngtree.com/png-clipart/20200701/original/pngtree-hacker-coding-with-a-keyboard-and-a-binary-background-color-illustration-png-image_5426760.jpg",
-      data: "step-1",
+      
       status: "Download",
       details1: "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem loreom",
       name: "Extreme ",

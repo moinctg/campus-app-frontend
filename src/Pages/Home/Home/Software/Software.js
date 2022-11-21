@@ -15,45 +15,33 @@ const Software = () => {
         </div>
       </div>
       {/* <div class="collabroate-all-card"> */}
-        <div classname='row collabroate-all-card'>
-        <div className='col-lg-3 card1 '>
+      <div className='row'>
+        {/* <div classname='collabroate-all-card'> */}
+        <div className='col-md-3  '>
         
-                        <img src="./assest/images/logo/p-1.jpg" alt="comapny logo1.png"/>
+                        <img  className='w-75' src="./assest/images/logo/p-1.jpg" alt="comapny logo1.png"/>
                     
         </div>
-        <div className='col-lg-3 card1'>
+        <div className='col-md-3 '>
        
-                        <img src="./assest/images/logo/p-1.jpg" alt="comapny logo1.png"/>
+                        <img className='w-75' src="./assest/images/logo/p-1.jpg" alt="comapny logo1.png"/>
                   
 
         </div>
-        <div className='col-lg-3 card1'>
+        <div className='col-md-3 '>
         
-                        <img src="./assest/images/logo/p-1.jpg" alt="comapny logo1.png"/>
+                        <img  className='w-75' src="./assest/images/logo/p-1.jpg" alt="comapny logo1.png"/>
                  
 
         </div>
-        <div className='col-lg-3 card1'>
+        <div className='col-md-3 '>
         
-                        <img src="./assest/images/logo/p-1.jpg" alt="comapny logo1.png"/>
-                   
+        <img  className='w-75' src="./assest/images/logo/p-1.jpg" alt="comapny logo1.png"/>
+   
 
+</div>
         </div>
-        {/* <div className='col-md-2 card1"'>
-      
-                        <img src="./assest/images/logo/p-1.jpg" alt="comapny logo1.png"/>
-                    
-
-        </div>
-        <div className='col-md-2 card1"'>
         
-                        <img src="./assest/images/logo/p-1.jpg" alt="comapny logo1.png"/>
-                    
-
-        </div>
-       */}
-        </div>
-      
       
  
 </div>

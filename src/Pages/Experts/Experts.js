@@ -17,8 +17,8 @@ const Experts = () => {
               </div>
               </div>
               </div>
-              <div className='row'>
-                <div className='col-lg-6'>
+              <div className='row p-3'>
+                <div className='col-md-6'>
               <div className="development-experts-left-part">
                 <div className="dv-card1">
                   <div className="dv-icon">
@@ -43,9 +43,9 @@ const Experts = () => {
                 </div>
                 </div>
                 </div>
-                <div className='col-lg-6 pt-4  d-flex align-items-center'>
+                <div className='col-md-6 pt-4  d-flex align-items-center'>
              
-                  <img className='p-3  w-100' src={img1}   alt="cartoon-3.png" />
+                  <img className='p-3  w-75' src={img1}   alt="cartoon-3.png" />
                 
               </div>
             </div>

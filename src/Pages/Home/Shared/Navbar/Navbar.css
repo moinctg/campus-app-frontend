@@ -11,3 +11,6 @@ float: left;
     border-radius: 5px;
     color:white;
 }
+.nav-link:hover{
+    background-color:  #F63E7B;
+}

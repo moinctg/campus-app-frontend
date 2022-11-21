@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import logo from '../../../Images/logo/logo.png';
 
 const Footer = () => {
     return (
@@ -11,9 +12,10 @@ const Footer = () => {
         <div className='row'>
             <div className='col-md-4'>
             <div class="footer-content">
-                    <div class="footer-logo">
-                    <img src="./assest/images/logo/logo.png" alt="logo"/>
-                    </div>
+            <div classname="footer-logo">
+          <a href=""> <img  className="logo p-3" src={logo}  width="100px" height="100px" alt="logo" /></a>
+        </div>
+    
                     <div class="left-content">
                     <li><i class="fa-solid fa-location-dot"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Uttara, Uttarkhan, Gazipara, Hashem Gazi Road Dhaka 1230.</li>
                     <li><i class="fa-solid fa-envelope"></i> &nbsp;&nbsp;&nbsp; creativecampusbd@gmail.com</li>
@@ -49,6 +51,22 @@ const Footer = () => {
         </div>
 
         </section>
+        <br/><br/><br/>
+<div className='container'>
+    <div className='row'>
+        <div className='col-md-12'>
+<section className="bottom-footer" id="bottom-footer">
+    <div className="container">
+        <div className="wrapper shadow-lg p-5 mb-5  rounded">
+            <div className="copyright">
+                <a href="#">Copyright © 2022 - 2025 creativec-ampus.com</a>
+            </div>
+        </div>
+    </div>
+    </section>
+    </div>
+    </div>
+    </div>
   
 </div>
 

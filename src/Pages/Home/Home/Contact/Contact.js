@@ -9,8 +9,8 @@ const Contact = () => {
 
    
 
-      <div className='row pt-3'>
-        <div className='col-md-8 p-4' >
+      <div className='row pt-3 '>
+        <div className='col-md-6 p-3' >
         <div className="contact-section">
         <div className="contact-form">
           <h1>Get In Touch</h1>
@@ -48,7 +48,7 @@ const Contact = () => {
         </div>
         </div>
         </div>
-        <div className='col-md-4 p-4"'>
+        <div className='col-md-6 mt-4 pt-4 w-50'>
         <div className="container ">
                 <div className="card-1">
                   <h2 className='text-white text-center'>Office Address</h2>
