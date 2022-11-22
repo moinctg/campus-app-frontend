@@ -5,52 +5,59 @@ const Experts = () => {
     return (
    
   <div classname="container">
-    <section id="development-experts" className="developmnt-experts">
+  
       <div classname="row">
-        <div classname="col-md-12">
+        <div classname="col-md-12 col-12 col-lg-12">
           <div className="container">
-            <div className="wrapper">
+         
               <div className="development-experts-header">
                 <h1>We are development experts <br /> on all technologies</h1>
               </div>
-              </div>
+              
               </div>
               </div>
               </div>
               <div className='row p-3'>
-                <div className='col-md-6'>
-              <div className="development-experts-left-part">
-                <div className="dv-card1">
+              <div className='col-md-6 col-lg 6 col-12'>
+              <div className="row">
+                <div className='col-md-4 col-lg 4 col-12 '>
+           
+                <div className="shadow-lg p-3 w-100  rounded ">
                   <div className="dv-icon">
                     <i className="fa-solid fa-code" />
                   </div>
-                  <h1>Web Development</h1>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam itaque hic consequatur illum illo enim nisi quaerat eveniet ipsum? Est quasi dolores aperiam voluptates nostrum earum tempora sit consequuntur explicabo!</p>
+                  <h1 className='text-white text-center'>Web Development</h1>
+                  <p className='text-white text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam itaque hic consequatur illum illo enim nisi quaerat eveniet ipsum? Est quasi dolores aperiam voluptates nostrum earum tempora sit consequuntur explicabo!</p>
                 </div>
-                <div className="dv-card2">
+                <div className='col-md-4 col-lg 4 col-12'>
+                <div className="shadow-lg p-3 w-100  rounded ">
                   <div className="dv-icon">
                     <i className="fa-brands fa-uncharted" />
                   </div>
-                  <h1>Software Development</h1>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam itaque hic consequatur illum illo enim nisi quaerat eveniet ipsum? Est quasi dolores aperiam voluptates nostrum earum tempora sit consequuntur explicabo!</p>
+                  <h1 className='text-white text-center'>Software Development</h1>
+                  <p className='text-white text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam itaque hic consequatur illum illo enim nisi quaerat eveniet ipsum? Est quasi dolores aperiam voluptates nostrum earum tempora sit consequuntur explicabo!</p>
                 </div>
-                <div className="dv-card3">
+                </div>
+                <div className='col-md-4 col-lg 4 col-12'>
+                <div className="shadow-lg p-3 w-100  rounded ">
                   <div className="dv-icon">
                     <i className="fa-brands fa-app-store" />
                   </div>
-                  <h1>Apps Development</h1>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam itaque hic consequatur illum illo enim nisi quaerat eveniet ipsum? Est quasi dolores aperiam voluptates nostrum earum tempora sit consequuntur explicabo!</p>
+                  <h1 className='text-white text-center'>Apps Development</h1>
+                  <p className='text-white text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam itaque hic consequatur illum illo enim nisi quaerat eveniet ipsum? Est quasi dolores aperiam voluptates nostrum earum tempora sit consequuntur explicabo!</p>
                 </div>
                 </div>
                 </div>
-                <div className='col-md-6 pt-4  d-flex align-items-center'>
+                </div>
+                </div>
+                <div className='col-md-6  col-lg 6 col-12  pt-4  d-flex align-items-center'>
              
                   <img className='p-3  w-75' src={img1}   alt="cartoon-3.png" />
                 
               </div>
             </div>
           
-    </section>
+    
   </div>
   );
 };

@@ -3,53 +3,53 @@ import './Process.css'
 const Process = () => {
     return (
        
-  <section className="process" id="process">
+
     <div classname="container">
       <div classname="row">
-        <div classname="col-sm-12">
+        <div classname="col-12 col-md-12 col-lg-12">
           <div className="container">
-            <div className="wrapper">
-              <div className="process-header">
+          
+            
                 <span>Process</span>
-                <h1>Our Work Process</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quia atque, voluptate vel, eius possimus perspiciatis quaerat.</p>
+                <h1 className='text-center text-white  process-header  p-3'>Our Work Process</h1>
+                <p className='text-center text-white process-header-title '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quia atque, voluptate vel, eius possimus perspiciatis quaerat.</p>
               </div>
-            </div>
-          </div>
+            
+          
         </div>
       </div>
       
-    <div className='row  process-card'>
-      <div className='col-md-3 research '>
+    <div className='row  pt-4'>
+      <div className='col-lg-3 col-md-3 col-12 research '>
+   
         <span className='card-hover'>1</span>
         <h2 className='text-center text-white '>Research</h2>
         <p className='text-center text-white '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quia atque, voluptate vel, eius possimus perspiciatis quaerat.</p>
-           
-
+     
       </div>
-      <div className='col-md-3 designing'>
+      <div className='col-lg-3  col-md-3 col-12  designing'>
       <span className='card-hover'>2</span>
         <h2 className='text-center text-white '>Designing</h2>
         <p className='text-center text-white '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quia atque, voluptate vel, eius possimus perspiciatis quaerat.</p>
     
                    
         </div>
-      <div className='col-md-3 building'>
+      <div className='col-lg-3 col-md-3 col-12 building '>
       <span className='card-hover'>3</span>
-      <h2 className='text-center text-white '>Duilding</h2>
+      <h2 className='text-center text-white '>Building</h2>
         <p className='text-center text-white '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quia atque, voluptate vel, eius possimus perspiciatis quaerat.</p>
     
                    </div>
-      <div className='col-md-3 deliver'>
+      <div className='col-lg-3  col-md-3 col-12 deliver  '>
       <span className='card-hover'>4</span>
       <h2 className='text-center text-white '>Deliver</h2>
         <p className='text-center text-white '>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum quia atque, voluptate vel, eius possimus perspiciatis quaerat.</p>
                    
-
+        </div>
       </div>
     </div>
-      </div>
-      </section>
+     
+  
   );
   };
   export default Process;

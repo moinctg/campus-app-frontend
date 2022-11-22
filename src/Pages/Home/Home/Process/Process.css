@@ -10,18 +10,17 @@
     text-transform: uppercase;
 }
 
-.process-header h1{
+.process-header{
     font-size: 60px;
     color: #fff;
     font-family: 'Poppins', sans-serif;
 }
 
-.process-header p{
+.process-header-title{
     color: #fff;
     font-family: 'Lato', sans-serif;
-    width: 400px;
     text-align: center;
-    margin-left: 35%;
+    margin-left: 15%;
     font-size: 18px;
 }
 
@@ -93,4 +92,45 @@
     background-color: #00464c;
     border-radius: 15px;
     box-shadow: 1px #00464c;
+}
+
+
+
+
+@include media-breakpoint-up(sm) {  
+    .process .process-card{
+        display: block;
+        
+    }
+    .research, .designing,
+.building, .deliver{
+    width:50%;
+}
+
+
+
+}
+@include media-breakpoint-up(md) {
+
+}
+@include media-breakpoint-up(lg) { 
+
+ }
+@include media-breakpoint-up(xl) {
+
+ }
+@include media-breakpoint-up(xxl) { 
+
+ }
+
+
+
+
+.custom-class {
+  display: none;
+}
+@include media-breakpoint-up(sm) {
+  .custom-class {
+    display: block;
+  }
 }
